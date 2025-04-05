@@ -103,7 +103,10 @@
                     >
                 </p>
 
-                <a in:fade={{ delay: 6_500 }} href="#">
+                <a
+                    in:fade={{ delay: 6_500 }}
+                    href="https://forms.hackclub.com/t/rNHUQ7psByus"
+                >
                     <img src="/cta.svg" alt="button reading 'count me in'" />
                 </a>
             </div>
