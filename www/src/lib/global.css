@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Routed Gothic";
+    src: url("/fonts/routed-gothic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Wack Club Sans";
+    src: url("/fonts/WackClubSans-Regular.woff2") format("woff2");
+}
+
+:root {
+    background-color: black;
+    color: white;
+
+    font-family: "Wack Club Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Routed Gothic", monospace;
+}
+
+h1 {
+    font-size: 88px;
+}
