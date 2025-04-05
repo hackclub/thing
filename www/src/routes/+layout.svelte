@@ -24,6 +24,11 @@
     }
 
     nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+
         opacity: 0;
         animation: fade-in 1s forwards;
         animation-delay: 6s;

@@ -112,6 +112,10 @@
 {/if}
 
 <style>
+    header {
+        height: 100svh;
+    }
+
     header,
     #hero {
         display: flex;
