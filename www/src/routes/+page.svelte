@@ -83,7 +83,7 @@
                     <span in:fade={{ delay: 5_200 }}
                         >High Schoolers are hacking on <span
                             style="position: relative;"
-                            >the same PCB
+                            >the&nbsp;same&nbsp;PCB
 
                             <span id="pcb-underline">
                                 <PcbUnderline />
@@ -192,9 +192,9 @@
 
     #pcb-underline {
         position: absolute;
-        width: 200px;
-        right: -0.63em;
-        top: -0.48em;
+        width: 100%;
+        right: -0.15em;
+        top: -0.5em;
     }
 
     #chaos {

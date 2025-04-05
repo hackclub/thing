@@ -7,7 +7,7 @@
 
     <div id="links">
         <p><a href="https://hackclub.com/slack">Hack Club Slack</a></p>
-        <p><a href="https://onboard.hackclub.com">Onboard</a></p>
+        <p><a href="https://hackclub.com/onboard">Onboard</a></p>
     </div>
 </nav>
 
