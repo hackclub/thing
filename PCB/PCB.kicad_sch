@@ -1465,7 +1465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3kΩ"
+		(property "Value" "3k-70kΩ"
 			(at 129.54 81.2799 0)
 			(effects
 				(font
@@ -1535,7 +1535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC107"
+		(property "Value" "BC549C"
 			(at 146.05 71.1199 0)
 			(effects
 				(font
@@ -1544,7 +1544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 146.05 71.755 0)
 			(effects
 				(font
@@ -1791,7 +1791,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "150Ω"
 			(at 146.05 83.8199 0)
 			(effects
 				(font
@@ -1861,7 +1861,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?Ω"
+		(property "Value" "72kΩ"
 			(at 129.54 60.9599 0)
 			(effects
 				(font
