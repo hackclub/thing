@@ -104,6 +104,7 @@
                 </p>
 
                 <a
+                    id="cta"
                     in:fade={{ delay: 6_500 }}
                     href="https://forms.hackclub.com/t/rNHUQ7psByus"
                 >
@@ -203,6 +204,16 @@
         @media (max-width: 660px) {
             font-size: 10vw;
             margin-top: 2vw;
+        }
+    }
+
+    #cta {
+        & img {
+            transition: 0.15s;
+        }
+
+        &:hover img {
+            scale: 1.05;
         }
     }
 </style>

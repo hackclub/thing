@@ -1,6 +1,22 @@
 <script>
+    import { onMount } from "svelte";
     import "../lib/global.css";
+
+    import { Gradient } from "$lib/gradient";
+
+    onMount(() => {
+        const gradient = new Gradient();
+        gradient.initGradient("#gradient-canvas");
+
+        window
+            .matchMedia("(prefers-color-scheme: dark)")
+            .addEventListener("change", () =>
+                gradient.initGradient("#gradient-canvas"),
+            );
+    });
 </script>
+
+<canvas id="gradient-canvas"></canvas>
 
 <nav>
     <img src="/flag-orpheus-top.svg" width="160" alt="hack club logo" />
@@ -58,5 +74,19 @@
                 font-size: 4vw;
             }
         }
+    }
+
+    #gradient-canvas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+        pointer-events: none;
+
+        --gradient-color-1: #001f13;
+        --gradient-color-2: #000000;
+        --gradient-color-3: #000000;
+        --gradient-color-4: #011911;
     }
 </style>
