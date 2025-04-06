@@ -1,4 +1,12 @@
-![The Thing](./thing.png)
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 960px)" srcset="./thing.png">
+  <source media="(prefers-color-scheme: dark) and (min-width: 961px)" width="50%" srcset="./thing.png">
+
+  <source media="(prefers-color-scheme: light) and (max-width: 960px)" srcset="./thing-light.png">
+  <source media="(prefers-color-scheme: light) and (min-width: 961px)" width="50%" srcset="./thing-light.png">
+
+  <img alt="The thing" src="./thing.png">
+</picture>
 
 Hey! Welcome to *The Thing*!
 
