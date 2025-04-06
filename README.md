@@ -8,7 +8,7 @@
   <img alt="The thing" src="./thing.png">
 </picture>
 
-Hey! Welcome to *The Thing*!
+Hey! Welcome to **The Thing**!
 
 ## Hey, what is this thing?
 The goal is for 100 Hack Clubbers to add a tool to the same PCB. The end result should be some sprawling over-the-top swiss-army-knife-esque monstrosity.
@@ -27,4 +27,4 @@ Everyone who adds a working subsystem will get a kit with all the parts they nee
     * `pcb.png`: A screenshot of your Kicad window in the PCB editor mode, showing the entire PCB.
     * `pcb-3d.png`: Switch to View > 3D viewer and select "Render current view using raytracing". Again, I want to see the whole board!
     * `schematic.png`: A screenshot of your Kicad window showing the whole board's schematic.
-    * `cad.png` *(OPTIONAL)*: If someone designs an enclosure or something, show me a screenshot of it. You only need to do this if you've changed it.
+    * `cad.png` **(OPTIONAL)**: If someone designs an enclosure or something, show me a screenshot of it. You only need to do this if you've changed it.
