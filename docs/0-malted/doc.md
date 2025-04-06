@@ -48,4 +48,10 @@ R3 needs to be 139Ω. There's no 139Ω resistor in the [E24 series](https://asen
 
 ---
 
-Footnote, it's been so long since I've done calculations like this that I forgot to make sure Ic is high enough to saturate the transistor. It's *JUST* about there. It's not going to kneecap the subsystem as far as I can tell so I won't rejig the voltage divider.
+> It's been so long since I've done calculations like this that I forgot to make sure Ic is high enough to saturate the transistor. It's *JUST* about there. It's not going to kneecap the subsystem as far as I can tell so I won't rejig the voltage divider. I should have worked backwards from my load, then calculate my minimum base current, then designed the voltage divider. You live and you learn, eh?
+
+P.S. I'm pretty proud I got my pcb traced in a single layer! Routing everything again and again was very theraputic.
+
+![PCB](./pcb.png)
+![3D PCB](./pcb-3d.png)
+![Schematic](./schematic.png)
