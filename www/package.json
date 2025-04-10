@@ -17,6 +17,7 @@
 		"vite": "^6.2.5"
 	},
 	"dependencies": {
+		"airtable": "^0.12.2",
 		"animejs": "^4.0.0"
 	}
 }

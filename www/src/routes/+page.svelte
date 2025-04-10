@@ -14,6 +14,7 @@
     });
 
     import { cubicOut } from "svelte/easing";
+    import Queue from "$lib/components/queue.svelte";
 
     export function flyScaleOpacity(
         node,
@@ -114,6 +115,8 @@
         </div>
     </header>
 {/if}
+
+<Queue />
 
 <style>
     header {
