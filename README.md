@@ -14,7 +14,9 @@ Hey! Welcome to **The Thing**!
 Have you seen those 80-part Swiss Army knives? I want us to make a PCB with that level of esotericism; a sprawling, over-the-top monstrosity.
 
 Many Hack Clubbers will add a tool or something to the same PCB consecutively, and at the end I'll get \~10 made and send them off to some people you may or may not have seen on YouTube...
-(and if you find me at a hackathon and you've added a subsystem to the board you may end up with one too (prob limited to 1 or 2))
+(and if you find me at a hackathon and you've added a subsystem to the board you may end up with one too (prob limited to 1 or 2)).
+
+It'll end when 100 subsystems have been added or nobody adds a component for a week. Happy hacking!
 
 ## How will it work?
 * People will take turns adding their subsystem.
