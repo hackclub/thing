@@ -5,6 +5,8 @@ When it's dark, the resistance of the LDR is high, meaning the voltage at the ba
 
 ---
 
+Firstly, I need a power source. It's 2025, so I want to plug in a USB-C cable. I looked for a while and found this. It needs 2 5k1Ω resistors on the *CC* lines, which are for negotiating power. If you wanted to get serious you can negotiate up to like 20V and >3A IIRC but for this 5V is all I want. [A Hack Club alum—Hugo—made an amazing reference guide for USB-C power lines a couple of years ago](https://www.hugohu.me/media/USB-C.Primer.pdf), in which it says to use 5100Ω resistors on both CC1 and CC2 lines to be compatible with fancy USB-C cables and bricks. [Here's the 5k1Ω resistor I chose.](https://www.digikey.com/en/products/detail/yageo/RC0402FR-075K1L/726624), and here's the USB-C receptable I found! I wrote my thought process leading to finding this specific component at the bottom of the readme.
+
 I searched for an LDR on Digikey and found the [PDV-P8103](https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P8103/480610). Generic photoresistor. Great! According to the datasheet, is resistance is 0.5MΩ in the dark and 16k-33kΩ in the light.
 
 > I originally tried to use an [NPN BJT](https://en.wikipedia.org/wiki/Bipolar_junction_transistor) (in writing this doc I kept typing NPM - the rot consumes) that looked good, but I found out that my base current would be too low to drive my LED because of the high voltage divider resistor values. I switched to a MOSFET.
