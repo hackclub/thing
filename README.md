@@ -25,7 +25,7 @@ Many Hack Clubbers will add a tool or something to the same PCB consecutively, a
 * In the `/docs` directory, add a folder titled `IDX-USERNAME`, where `IDX` is your number in line, and `USERNAME` is your GitHub username.
   * For example, I'm the first person to go, so my folder is named `0-malted`.
   * In your folder, you'll need;
-    * `doc.md`: Your writeup. Include detail about your subsystem! How you designed it, your calculations, tests, everything. Don't use an LLM; I won't merge it if you do. Make it interesting, tell me a story!! :D
+    * `doc.md`: Your writeup. Include detail about your subsystem! How you designed it, your calculations, tests, everything. Don't use an LLM, make it interesting, tell me a story!! :D
     * `pcb.png`: A screenshot of your Kicad window in the PCB editor mode, showing the entire PCB.
     * `pcb-3d.png`: Switch to View > 3D viewer and select "Render current view using raytracing". Again, I want to see the whole board!
     * `schematic.png`: A screenshot of your Kicad window showing the whole board's schematic.
