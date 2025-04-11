@@ -42,7 +42,7 @@ It'll end when 100 subsystems have been added or nobody adds a component for a w
 * Please strongly bias for parts in stock on Digikey.
 
 ## Tips
-* Finding parts can be tricky. Here's how I found the USB-C receptable I used in my circuit;
+Finding parts can be tricky. Here's how I found the USB-C receptable I used in my circuit;
   1. Added a symbol to my schematic. I only wanted it for the 5V rail, so I found a symbol with the description "*USB Power-Only 6P Type-C Receptacle connector*". Seems okay.
   2. Opened the *footprint editor* and searched for "*usb c receptacle 6p*" (6P meaning it has 6 pins, which is minimal). I found a footprint named "*USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal*", which looked good. I liked the footprint because it had through-hole shield pins, meaning it would be less likely to be ripped off the board when pulling on it. The only other footprint which actually had 6 pins didn't have the through-hole shield.
   3. I searched on the internet for "*USB4125*". I found the [page from the manufacturer](https://gct.co/connector/usb4125) (GCT), which had links to Mouser and Digikey, amongst others. Heaven. It was slightly cheaper on Mouser so I went with that. It's comforting that it says *21230 In stock*.
