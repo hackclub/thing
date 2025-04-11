@@ -8,8 +8,6 @@
     const endDate = startDate + twoDays;
     const endDateFormatted = new Date(endDate).toUTCString();
 
-    console.log({ startDate, endDate, endDateFormatted });
-
     const formatter = new Intl.DateTimeFormat("en-GB", {
         day: "numeric",
         month: "long",

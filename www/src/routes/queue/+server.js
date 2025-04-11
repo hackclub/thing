@@ -11,7 +11,14 @@ export async function GET() {
       view: "Grid view",
     })
     .all()
-    .then((recs) => recs.map((rec) => rec.fields));
+    .then((recs) =>
+      recs
+        .map((rec) => {
+          delete rec.fields.Email;
+          return rec.fields;
+        })
+        .filter((rec) => rec["Display name"] !== undefined),
+    );
 
   return json(queueContent);
 }
