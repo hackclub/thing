@@ -26,18 +26,17 @@ Many Hack Clubbers will add a tool or something to the same PCB consecutively, a
   * For example, I'm the first person to go, so my folder is named `0-malted`.
   * In your folder, you'll need;
     * `doc.md`: Your writeup. Include detail about your subsystem! How you designed it, your calculations, tests, everything. Don't use an LLM, make it interesting, tell me a story!! :D
-    * `pcb.png`: A screenshot of your Kicad window in the PCB editor mode, showing the entire PCB.
-    * `pcb-3d.png`: Switch to View > 3D viewer and select "Render current view using raytracing". Again, I want to see the whole board!
-    * `schematic.png`: A screenshot of your Kicad window showing the whole board's schematic.
-    * `cad.png` **(OPTIONAL)**: If someone designs an enclosure or something, show me a screenshot of it. You only need to do this if you've changed it.
-    * `bom.csv`: Your bill of materials. Create and edit this manually.
-      * Headers: `partno`, `description`, `link`, `datasheet`, `price`, `quantity`. The price should be that of a single part (regardless of your `quantity`, **on the line item for 100 pieces**. It should be in USD without a dollar symbol.
-      * For an exemplar BoM check mine out: `/docs/0-malted/bom.csv`.
+    * `pcb.png`: A screenshot of the PCB in Kicad's PCB editor, showing the entire PCB.
+    * `pcb-3d.png`: Switch to View > 3D viewer and select "Render current view using raytracing". Again, we want to see the whole board!
+    * `schematic.png`: A screenshot of the whole board's schematic.
+    * `cad.png` **(OPTIONAL)**: If someone designs an enclosure or something (wink wink nudge nudge), show me a screenshot of it. You only need to do this if you've changed it.
+    * `bom.csv`: Your bill of materials. Create and edit this manually. The price should be that of a single part (regardless of your `quantity`, **on the line item for 100 pieces**. It should be in USD without a dollar symbol.
+      * For an exemplar BoM check mine out: `/docs/0-malted/bom.csv`. There's a template at `/docs/bom-template.csv`.
   * Make your schematic as complete as possible! When you double click your components you can add datasheets to help out others who might need to tie into your circuit or something in the future.
 
 ## Constraints
 * Use Kicad `9.0.x`. Apparently, our project will be corrupted if we're on differing versions.
-* Each BoM must not exceed $5 in parts. If you have an especially cool idea I could be convinced to double it on a case-by-case basis :)
+* Each BoM must not exceed $5 in parts. Assume 3D printing is free. If you have an especially cool idea I could be convinced to double it on a case-by-case basis :)
 * Please strongly bias for parts in stock on Digikey.
 
 ## Tips
