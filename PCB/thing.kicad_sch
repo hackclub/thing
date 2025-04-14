@@ -1632,22 +1632,28 @@
 		(uuid "1036f1af-541a-4375-909d-749f5c672cca")
 	)
 	(junction
+		(at 167.64 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "338bdc5b-6399-486b-9de9-9c545cf956f1")
+	)
+	(junction
 		(at 167.64 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7aedeabd-1bb9-4a27-8b7d-44f910a36d93")
 	)
 	(junction
-		(at 167.64 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d8049e2-1162-4b8b-a504-5524f7a46ebe")
-	)
-	(junction
 		(at 152.4 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "991a5060-59bb-40c3-a4f4-856bb47e70c5")
+	)
+	(junction
+		(at 167.64 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c352c30-488e-4911-81ac-0bf8081948d1")
 	)
 	(junction
 		(at 173.99 76.2)
@@ -1677,23 +1683,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 54.61) (xy 167.64 57.15)
+			(xy 167.64 54.61) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "068583f5-64c0-4bbd-9462-cb4fed5644a7")
-	)
-	(wire
-		(pts
-			(xy 166.37 57.15) (xy 167.64 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0987ed09-cb69-4d9c-bbe5-c85d9e7dd28a")
+		(uuid "16f29e49-426e-469b-a2c0-b0002ed52465")
 	)
 	(wire
 		(pts
@@ -1767,16 +1763,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 57.15) (xy 167.64 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65a7d4a2-097a-45ba-9a08-f7d47d83fc97")
-	)
-	(wire
-		(pts
 			(xy 190.5 53.34) (xy 190.5 54.61)
 		)
 		(stroke
@@ -1797,7 +1783,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 91.44) (xy 173.99 91.44)
+			(xy 106.68 91.44) (xy 167.64 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1837,6 +1823,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 91.44) (xy 173.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82cc68a5-d8b9-444c-9f50-89739265c129")
+	)
+	(wire
+		(pts
 			(xy 167.64 44.45) (xy 190.5 44.45)
 		)
 		(stroke
@@ -1844,6 +1840,16 @@
 			(type default)
 		)
 		(uuid "8a3b4dff-26db-4e83-b8ff-cf7634c9bdfc")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.2) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce85272-3ff9-45ed-9d1b-111124749dbf")
 	)
 	(wire
 		(pts
