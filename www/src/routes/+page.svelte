@@ -218,7 +218,5 @@
         &:hover img {
             scale: 1.05;
         }
-
-        z-index: 10;
     }
 </style>
