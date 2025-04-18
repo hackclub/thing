@@ -2090,19 +2090,7 @@
 		(layer "Edge.Cuts")
 		(uuid "a8a9d297-2f7c-45ce-aca7-08c2db129e09")
 	)
-	(gr_text "Draw your edge cuts and sikscreen boundaries with the grid  at 0.5mm!!"
-		(at 138 81.5 0)
-		(layer "F.SilkS")
-		(uuid "271e948d-e943-4fbe-953f-e21836749735")
-		(effects
-			(font
-				(size 1 0.5)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Don't remove anything in someone else's boundary -\nif you want to change it then add something in your own :)"
+	(gr_text "Don't remove anything in someone else's boundary -\njust add stuff in your own boundary :)"
 		(at 152 85.5 0)
 		(layer "F.SilkS")
 		(uuid "5183ea07-edd7-4d4d-ad3b-008ad5c12fc1")
@@ -2112,6 +2100,30 @@
 				(thickness 0.1)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "Draw a rectangle around all your stuff\n(front and back silkscreen)\nand add your Slack username! :P"
+		(at 151.5 79 0)
+		(layer "F.SilkS")
+		(uuid "d17f9ca0-9867-4878-b7c3-4c23d8fbc36f")
+		(effects
+			(font
+				(size 1 0.5)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Draw your edge cuts and sikscreen boundaries with the grid  at 0.5mm!!"
+		(at 138 81.5 0)
+		(layer "B.SilkS")
+		(uuid "271e948d-e943-4fbe-953f-e21836749735")
+		(effects
+			(font
+				(size 1 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "Thing 1.0"

@@ -18,6 +18,9 @@ Many Hack Clubbers will add a tool or something to the same PCB consecutively, a
 
 It'll end when 100 subsystems have been added or nobody adds a component for a week. Happy hacking!
 
+## Current thing:
+![3D PCB](docs/0-malted/pcb-3d.png)
+
 ## How will it work?
 * People will take turns adding their subsystem.
 * Each person will get 2 days. If it's not merged after exactly 2 days, you'll be put at the back of the queue for another go and it'll be handed off to the next person. **I'll DM you a day or two before it's your turn to make sure you're ready. If you don't respond you might be skipped.**
